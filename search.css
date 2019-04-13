@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font: 0.85em/1.3 Arial, sans-serif;
+	margin: 0;
+	min-height: 100%;
+	background-color: #ebebec;	
+}
+
+input {
+	border: none;
+	background: transparent;
+}
+
+img {
+	width: 85px;
+}
+form {
+	margin: 0;
+}
+
+button {
+	background: transparent;
+	border: none;	
+}
+
+.button-magni {
+	position: absolute;
+	right: 0;
+	top: 50px;
+}
+
+button:hover {
+	transform: scale(1.2);
+	transition: all 0.3s ease-out;
+}
+
+.big-search-input {
+	border: none;
+	padding: 0 80px 0 10px;
+	font-size: 7em;
+	font-weight: 700;
+	color: #ec5a62;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+input[type="search"]::-webkit-input-placeholder {
+    color: #c2c2c2;
+}
+
+.big-search-input:focus, .button-magni:active, .button-magni:focus {
+   outline-width: 0;
+}
+
+.search-base {	
+	padding-top: 40px;
+	margin: 0 auto;
+    position: relative;
+    width: 80%;
+}	
+.Search-line {
+	width: 80%;
+	display: block;
+}
+
+.column-style {
+	display: inline-block;
+	color: #c2c2c2;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 800;
+	margin-bottom: 0;
+}
+
+.content-three-column {
+	width: 100%;
+	margin-top: 40px;
+	color: #333;
+}	
+
+.column-title {
+	display: inline-block;
+	width: 30%;
+}
+
+.column-ul	{
+	list-style: none;
+	padding: 0 0 6em;
+}
+.avatars {
+	border-radius: 100%;
+}
+.column-ul a {
+	display: block;
+	padding: 0.75em;
+	margin: 0.3em 0;
+	cursor: pointer;
+	border-radius: 5px;
+	background: rgba(118,117,128,0.05);
+	color: rgba(145,145,145,0.7);
+	text-decoration: none;
+}
+.column-ul img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.column-ul li:hover {
+	background-color: rgba(118,117,128,0.1);
+}
+.column-ul a:hover {
+	color: #ec5a62;
+}	
+a h3 {
+	display: inline-block;
+	text-align: right;
+}
+
+.column-ul img {
+	width: 50px;
+}
+.column-title:nth-child(2n) {
+	margin: 0 4%;
+}
+
+
